@@ -8,9 +8,7 @@
 
 Please have a read through the course outline and know how to navigate through the website to find relevant information to you.
 
-[COMP(2041|9044) 23T2 —
-        
-    Software Construction](https://cgi.cse.unsw.edu.au/~cs2041/23T2/)
+[COMP(2041|9044) 23T2 — Software Construction](https://cgi.cse.unsw.edu.au/~cs2041/23T2/)
 
 **Ed forum**
 
