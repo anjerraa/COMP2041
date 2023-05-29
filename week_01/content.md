@@ -35,14 +35,14 @@ Login is your zID email (i.e. `z1234567@unsw.edu.au`) and your zID password.
 - Reads bytes from their standard input or specified files, then perform useful transformation on the stream, and write the transformed bytes to standard output or specified files
 - Examples: `cat`, `grep`, `wc`, `tr`, `head`/`tail`, `cut`, `sort`, `uniq`, `sed`, `find`, `join`, `paste`, `tee`, and `xargs`
 
-🧠 **************Recap on regular expression (regex)**************
+🧠 **Recap on regular expression (regex)**
 
 - Concise powerful notation for sets of strings
 - Pattern matching
 - Effective use of regex makes you much more productive
 - Useful for manipulation of textual data
 
-Rules:
+__Rules:__
 
 Basics: any regex can be written using only `()`, `*`, `|` and `\`.
 
