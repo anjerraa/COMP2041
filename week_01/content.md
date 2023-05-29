@@ -1,9 +1,6 @@
 # Week 01
 
 ## 🌐 Course introduction
-
----
-
 **Course website**
 
 Please have a read through the course outline and know how to navigate through the website to find relevant information to you.
@@ -17,9 +14,6 @@ Login is your zID email (i.e. `z1234567@unsw.edu.au`) and your zID password.
 [Ed Discussion](https://edstem.org/au/courses/12028/discussion/)
 
 ## 🖥️ Operating systems
-
----
-
 - **What is an operating system?**
     
     An operating system is a piece of software that manages the hardware of a computer and provides an interface to the programs that run on the computer.
@@ -37,9 +31,6 @@ Login is your zID email (i.e. `z1234567@unsw.edu.au`) and your zID password.
     
 
 ## 🧠 Recap on regex and grep
-
----
-
 📊 **Recap on filters**
 
 - Filter is a program that transforms a byte stream
