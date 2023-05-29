@@ -16,28 +16,6 @@ Login is your zID email (i.e. `z1234567@unsw.edu.au`) and your zID password.
 
 [Ed Discussion](https://edstem.org/au/courses/12028/discussion/)
 
-## 👩🏻‍🏫 Class introduction
-
----
-
-<aside>
-🍄 **Name:** Angella Pham (yeah, with 2 L’s because my favourite number is 2)
-
-**Year + degree:** 3rd year Computer Science
-
-**Hobbies:** film photography, eating and not going to the gym…
-
-[Food](https://www.notion.so/d9c1718c1c0e4166892dddb2016f6bef)
-
-</aside>
-
-<aside>
-🐻 **Your turn…**
-
-Introduce your name, year + degree, hobbies and why you picked up COMP2041.
-
-</aside>
-
 ## 🖥️ Operating systems
 
 ---
