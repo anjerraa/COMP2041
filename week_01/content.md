@@ -46,17 +46,11 @@ __Rules:__
 
 Basics: any regex can be written using only `()`, `*`, `|` and `\`.
 
-|  | Unless a character has a special meaning, it matches itself
-a matches a |
-| --- | --- |
-| p* | Zero or more repetitions of p
-matches  , p, pp, ppp, … |
-| pattern1 | pattern2 | Union of pattern1 and pattern2
-hello|world matches hello, world |
-| () | Parentheses are used for grouping
-(d|e)*(f|g) matches f, g, df, dg, ef, eg, ddf, deg, … |
-| \ | Removes special meaning of the following character
-\* matches * |
+|  | Unless a character has a special meaning, it matches itself a matches a |
+| p* | Zero or more repetitions of p matches  , p, pp, ppp, … |
+| pattern1 \| pattern2 | Union of pattern1 and pattern2 hello\|world matches hello, world |
+| () | Parentheses are used for grouping (d\|e)*(f\|g) matches f, g, df, dg, ef, eg, ddf, deg, … |
+| \ | Removes special meaning of the following character \\* matches * |
 
 Matching single characters:
 
