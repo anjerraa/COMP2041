@@ -1,5 +1,3 @@
-# Week 01
-
 ## 🌐 Course introduction
 **Course website**
 
