@@ -35,7 +35,7 @@ fi
 i=2
 while [ "$i" -le "$1" ];
 do
-    if ./is_prime.sh $i > /dev/null;
+    if ./is_prime.sh "$i" > /dev/null;
     then
         echo "$i"
     fi

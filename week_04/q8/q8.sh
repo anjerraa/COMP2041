@@ -6,15 +6,15 @@
 # on all of the students who are enrolled in COMP2041
 
 (
-    for zid in $(members COMP2041 | cut -d' ' -f1);
+    for id in $(members COMP2041 | cut -d' ' -f1);
     do
-        acc "z$zid" 2> /dev/null |
+        acc "z$id" 2> /dev/null |
         sed -n '/User classes/,/Misc classes/p' |
         head -n -1 | # Removes the `Misc classes :` line
         cut -d':' -f2 | # Get the info on the RHS
         tr ', ' '\n' | # Separates each class onto its own new line
         grep -E 't2_Student' | # Get the ones the user is student of
-        sed -E 's/t2.*$//' # Takes only the course name
+        sed -E 's/^[A-Z]{4}[0-9]{4}.*$/\1/' # Takes only the course name
     done
 ) |
 sort |
