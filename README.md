@@ -22,4 +22,4 @@ https://angellaa.notion.site/Week-04-2e61aa16c0d44f17a20c56b833acf655
 
 ### 🐛 Week 05:
 
-https://angellaa.notion.site/Week-05-3870394bd1ee45a0b1753bccf0e25127?pvs=4
+https://angellaa.notion.site/Week-05-3870394bd1ee45a0b1753bccf0e25127
