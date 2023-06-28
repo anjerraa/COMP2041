@@ -1,14 +1,18 @@
 #!/bin/dash
 
 print_message() {
-    if [ "$#" -eq 1 ];
-    then
-        echo "$0: warning: $1"
-    elif [ "$#" -eq 2 ];
-    then
-        echo "$0: error: $2"
-        exit "$1"
-    fi
+    case "$#" in
+        1)
+            echo "$0: warning: $1"
+            ;;
+        2)
+            echo "$0: error: $2" >&2
+            exit "$1"
+            ;;
+        *)
+            echo "print_message(): [optional exit code] [message]"
+            ;;
+    esac
 }
 
 # If there is one argument, print it as a warning
