@@ -1,4 +1,4 @@
-# COMP2041
+# COMP2041 Software Construction: Techniques and Tools
 
 Here, you will find the contents used in my tutorials :)
 
